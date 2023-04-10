@@ -17,11 +17,10 @@ import java.util.*
 import java.util.concurrent.TimeUnit
 
 class FragenActivity8 : AppCompatActivity(), RobotLifecycleCallbacks {
-    var examTime = 180000
     var timeLeftInMillis = 0L
     var countDownTimer: CountDownTimer? = null
     var timerIsRunning = false
-    var remainingTimeInMillis = examTime.toLong()
+    var remainingTimeInMillis = 180000L
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -126,8 +125,8 @@ class FragenActivity8 : AppCompatActivity(), RobotLifecycleCallbacks {
     private fun stopOrResetTimer() {
         countDownTimer?.cancel()
         timerIsRunning = false
-        timeLeftInMillis = examTime.toLong() // time for a question
-        remainingTimeInMillis = examTime.toLong() // time for a question
+        timeLeftInMillis = 180000 // time for a question
+        remainingTimeInMillis = 180000 // time for a question
         val countTime: TextView = findViewById(R.id.time8)
         countTime.text = remainingTimeInMillis.convertToTimeFormat()
     }

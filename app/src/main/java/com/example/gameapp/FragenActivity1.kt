@@ -82,7 +82,7 @@ class FragenActivity1 : AppCompatActivity(), RobotLifecycleCallbacks {
         say_5.async().run()
         TimeUnit.SECONDS.sleep(4L)
         say_6.async().run()
-        TimeUnit.SECONDS.sleep(6L)
+        TimeUnit.SECONDS.sleep(4L)
         mediaPlayerStart.start()
         TimeUnit.SECONDS.sleep(181L)
         mediaPlayerStop.start()

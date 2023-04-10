@@ -21,11 +21,11 @@ import java.util.*
 import java.util.concurrent.TimeUnit
 
 class FragenActivity10 : AppCompatActivity(), RobotLifecycleCallbacks {
-    var examTime = 300000
+
     var timeLeftInMillis = 0L
     var countDownTimer: CountDownTimer? = null
     var timerIsRunning = false
-    var remainingTimeInMillis = examTime.toLong()
+    var remainingTimeInMillis = 300000L
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -111,7 +111,7 @@ class FragenActivity10 : AppCompatActivity(), RobotLifecycleCallbacks {
         say_6.async().run()
         TimeUnit.SECONDS.sleep(3L)
         mediaPlayerStart.start()
-        TimeUnit.SECONDS.sleep(181L)
+        TimeUnit.SECONDS.sleep(301L)
         mediaPlayerStop.start()
         TimeUnit.SECONDS.sleep(2L)
         say_7.async().run()
@@ -174,8 +174,8 @@ class FragenActivity10 : AppCompatActivity(), RobotLifecycleCallbacks {
     private fun stopOrResetTimer() {
         countDownTimer?.cancel()
         timerIsRunning = false
-        timeLeftInMillis = examTime.toLong() // time for a question
-        remainingTimeInMillis = examTime.toLong() // time for a question
+        timeLeftInMillis = 300000 // time for a question
+        remainingTimeInMillis = 300000 // time for a question
         val countTime: TextView = findViewById(R.id.time10)
         countTime.text = remainingTimeInMillis.convertToTimeFormat()
     }

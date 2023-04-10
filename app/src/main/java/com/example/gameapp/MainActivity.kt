@@ -105,7 +105,7 @@ class MainActivity : AppCompatActivity(), RobotLifecycleCallbacks{
             .withText("Schön!")
             .build()
         bt2.setOnClickListener {
-            val intent = Intent(this, FragenActivity10::class.java)
+            val intent = Intent(this, FragenActivity4::class.java)
             startActivity(intent)
         }
         bt1.setOnClickListener {
