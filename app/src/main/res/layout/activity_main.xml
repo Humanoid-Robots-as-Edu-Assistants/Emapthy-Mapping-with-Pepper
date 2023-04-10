@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ic_launcher_background"
+    android:backgroundTint="#001B4E"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_start2"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="298dp"
+        android:layout_height="74dp"
+        android:backgroundTint="@color/ic_launcher_background"
+        android:fontFamily="@font/aclonica"
+        android:text="Weiter zu Fragen"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <Button
+        android:id="@+id/button_start"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="146dp"
+        android:layout_height="154dp"
+        android:backgroundTint="@color/ic_launcher_background"
+        android:fontFamily="@font/aclonica"
+        android:text="START"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.524" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="559dp"
+        android:layout_height="477dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619"
+        app:srcCompat="@drawable/empaty" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="827dp"
+        android:layout_height="119dp"
+        android:fontFamily="@font/aclonica"
+        android:lineSpacingExtra="14sp"
+        android:paddingLeft="20dp"
+        android:text="Empathy Mapping mit Pepper"
+        android:textAlignment="center"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+</androidx.constraintlayout.widget.ConstraintLayout>

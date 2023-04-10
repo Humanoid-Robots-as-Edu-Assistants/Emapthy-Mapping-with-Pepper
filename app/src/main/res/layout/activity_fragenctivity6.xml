@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001B4E"
+    android:backgroundTint="#001B4E"
+    tools:context=".FragenActivity6">
+
+    <TextView
+        android:id="@+id/fragen"
+        android:layout_width="843dp"
+        android:layout_height="206dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:fontFamily="@font/aclonica"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="F6: Was mache ich?"
+        android:textAlignment="textStart"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/time6"
+        android:layout_width="223dp"
+        android:layout_height="57dp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="915dp"
+        android:layout_height="219dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:fontFamily="@font/aclonica"
+        android:lineSpacingExtra="12sp"
+        android:paddingStart="20dp"
+        android:paddingLeft="50dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="50dp"
+        android:text="Die Antwort könnte lauten: “Ich probe und frage meine Freundin um Feedback”"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
