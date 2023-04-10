@@ -1,2 +1,2 @@
-# GameApp
-This is an English Grammar learning android application runs on the Pepper humanoid robot 
+# Empathy Mapping with Pepper
+Pepper works as a moderator to conduct the Empathy Mapping session with a group of students
