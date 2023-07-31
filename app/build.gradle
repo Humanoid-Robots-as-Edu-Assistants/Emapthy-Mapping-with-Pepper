@@ -1,3 +1,5 @@
+//new stuff
+
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
@@ -29,8 +31,11 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    compileSdkVersion 33
+    buildToolsVersion '33.0.2'
+    namespace 'com.example.empathymap'
 }
-
+//apply plugin: 'com.google.gms.google-services'
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.7.0'

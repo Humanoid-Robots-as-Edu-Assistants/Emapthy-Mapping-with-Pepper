@@ -1,52 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection, AndroidDomInspection -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.gameapp">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-feature android:name="com.softbank.hardware.pepper" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_launcher_foreground"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GameApp"
         tools:targetApi="31">
         <activity
-            android:name=".FragenActivity10"
+            android:name="com.example.empathymap.FragenActivity10"
             android:exported="false" />
         <activity
-            android:name=".FragenActivity9"
+            android:name="com.example.empathymap.FragenActivity9"
             android:exported="false" />
         <activity
-            android:name=".FragenActivity8"
+            android:name="com.example.empathymap.FragenActivity8"
             android:exported="false" />
         <activity
-            android:name=".FragenActivity7"
+            android:name="com.example.empathymap.FragenActivity7"
             android:exported="false" />
         <activity
-            android:name=".FragenActivity6"
+            android:name="com.example.empathymap.FragenActivity6"
             android:exported="false" />
         <activity
-            android:name=".FragenActivity5"
+            android:name="com.example.empathymap.FragenActivity5"
             android:exported="false" />
         <activity
-            android:name=".FragenActivity4"
+            android:name="com.example.empathymap.FragenActivity4"
             android:exported="false" />
         <activity
-            android:name=".FragenActivity3"
+            android:name="com.example.empathymap.FragenActivity3"
             android:exported="false" />
         <activity
-            android:name=".FragenActivity2"
+            android:name="com.example.empathymap.FragenActivity2"
             android:exported="false" />
         <activity
-            android:name=".FragenActivity1"
+            android:name="com.example.empathymap.FragenActivity1"
             android:exported="false" />
         <activity
-            android:name=".FragenActivity"
+            android:name="com.example.empathymap.FragenActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity3"
@@ -55,7 +56,7 @@
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.empathymap.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

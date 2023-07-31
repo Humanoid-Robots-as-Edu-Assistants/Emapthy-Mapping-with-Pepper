@@ -4,9 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#001B4E"
+    android:background="#00001B4E"
     android:backgroundTint="#001B4E"
     tools:context=".FragenActivity10">
+
+    <Button
+        android:id="@+id/button_pause10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="45dp"
+        android:text="Pause"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="103dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="425dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="425dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/arsenal"
+        android:text="10/10"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button_skip10"
+        android:layout_width="227dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="45dp"
+        android:text="End"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/fragen"
@@ -14,55 +61,56 @@
         android:layout_height="210dp"
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"
-        android:fontFamily="@font/aclonica"
+        android:fontFamily="@font/arsenal_bold"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
         android:text="F10: Welche Lernerfahrung wünsche ich mir? "
         android:textAlignment="textStart"
-        android:textColor="@color/ic_launcher_background"
-        android:textSize="34sp"
+        android:textColor="@color/black"
+        android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.085" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/time10"
         android:layout_width="223dp"
         android:layout_height="57dp"
-        android:fontFamily="@font/aclonica"
+        android:fontFamily="@font/arsenal"
         android:textAlignment="center"
-        android:textColor="@color/ic_launcher_background"
+        android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintHorizontal_bias="0.962"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.067" />
+        app:layout_constraintVertical_bias="0.177" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="915dp"
-        android:layout_height="219dp"
+        android:layout_width="726dp"
+        android:layout_height="291dp"
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"
-        android:fontFamily="@font/aclonica"
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/arsenal"
         android:lineSpacingExtra="12sp"
         android:paddingStart="20dp"
         android:paddingLeft="50dp"
         android:paddingEnd="20dp"
         android:paddingRight="50dp"
-        android:text="Zum Beispiel  “Ich wünsche mir ein interaktives Lernangebot mit einem Experten, mit dem ich das Präsentieren praktisch üben kann und personalisiertes Feedback bekomme”.  "
-        android:textColor="@color/ic_launcher_background"
-        android:textSize="24sp"
+        android:text="“Ich wünsche mir ein interaktives Lernangebot mit einem Experten, mit dem ich das Präsentieren praktisch üben kann und personalisiertes Feedback bekomme”.  "
+        android:textColor="@color/black"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643" />
+        app:layout_constraintVertical_bias="0.603" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
