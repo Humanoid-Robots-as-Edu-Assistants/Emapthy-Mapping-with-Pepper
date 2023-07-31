@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- suppress AndroidDomInspection, AndroidDomInspection -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gameapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="32" />
+
+    <uses-feature android:name="com.softbank.hardware.pepper" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.aldebaran.permission.ROBOT" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.GameApp" >
+        <activity
+            android:name="com.example.empathymap.FragenActivity10"
+            android:exported="false" />
+        <activity
+            android:name="com.example.empathymap.FragenActivity9"
+            android:exported="false" />
+        <activity
+            android:name="com.example.empathymap.FragenActivity8"
+            android:exported="false" />
+        <activity
+            android:name="com.example.empathymap.FragenActivity7"
+            android:exported="false" />
+        <activity
+            android:name="com.example.empathymap.FragenActivity6"
+            android:exported="false" />
+        <activity
+            android:name="com.example.empathymap.FragenActivity5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.empathymap.FragenActivity4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.empathymap.FragenActivity3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.empathymap.FragenActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.empathymap.FragenActivity1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.empathymap.FragenActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.empathymap.MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.empathymap.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.empathymap.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="qisdk_version"
+            android:value="@string/qisdk_version" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.gameapp.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

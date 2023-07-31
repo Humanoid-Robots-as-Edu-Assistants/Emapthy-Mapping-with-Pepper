@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- suppress AndroidDomInspection, AndroidDomInspection -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.example.gameapp"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:name="com.softbank.hardware.pepper" />
+12-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:6:5-65
+12-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:6:19-62
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:7:5-67
+14-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:7:22-64
+15    <uses-permission android:name="com.aldebaran.permission.ROBOT" />
+15-->[com.aldebaran:qisdk:1.7.5] C:\Users\admin\.gradle\caches\transforms-3\2dba9fa17607037be4d5eca9f15d82f3\transformed\jetified-qisdk-1.7.5\AndroidManifest.xml:10:5-70
+15-->[com.aldebaran:qisdk:1.7.5] C:\Users\admin\.gradle\caches\transforms-3\2dba9fa17607037be4d5eca9f15d82f3\transformed\jetified-qisdk-1.7.5\AndroidManifest.xml:10:22-67
+16
+17    <application
+17-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:9:5-71:19
+18        android:allowBackup="true"
+18-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:10:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] C:\Users\admin\.gradle\caches\transforms-3\76ac3375205300396b218b1cda98de8a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:11:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:12:9-54
+24        android:icon="@drawable/ic_launcher_foreground"
+24-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:13:9-56
+25        android:label="@string/app_name"
+25-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:14:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:15:9-54
+27        android:supportsRtl="true"
+27-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:16:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.GameApp" >
+29-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:17:9-45
+30        <activity
+30-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:19:9-21:40
+31            android:name="com.example.empathymap.FragenActivity10"
+31-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:20:13-67
+32            android:exported="false" />
+32-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:21:13-37
+33        <activity
+33-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:22:9-24:40
+34            android:name="com.example.empathymap.FragenActivity9"
+34-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:23:13-66
+35            android:exported="false" />
+35-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:24:13-37
+36        <activity
+36-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:25:9-27:40
+37            android:name="com.example.empathymap.FragenActivity8"
+37-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:26:13-66
+38            android:exported="false" />
+38-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:27:13-37
+39        <activity
+39-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:28:9-30:40
+40            android:name="com.example.empathymap.FragenActivity7"
+40-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:29:13-66
+41            android:exported="false" />
+41-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:30:13-37
+42        <activity
+42-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:31:9-33:40
+43            android:name="com.example.empathymap.FragenActivity6"
+43-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:32:13-66
+44            android:exported="false" />
+44-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:33:13-37
+45        <activity
+45-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:34:9-36:40
+46            android:name="com.example.empathymap.FragenActivity5"
+46-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:35:13-66
+47            android:exported="false" />
+47-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:36:13-37
+48        <activity
+48-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:37:9-39:40
+49            android:name="com.example.empathymap.FragenActivity4"
+49-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:38:13-66
+50            android:exported="false" />
+50-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:39:13-37
+51        <activity
+51-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:40:9-42:40
+52            android:name="com.example.empathymap.FragenActivity3"
+52-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:41:13-66
+53            android:exported="false" />
+53-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:42:13-37
+54        <activity
+54-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:43:9-45:40
+55            android:name="com.example.empathymap.FragenActivity2"
+55-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:44:13-66
+56            android:exported="false" />
+56-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:45:13-37
+57        <activity
+57-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:46:9-48:40
+58            android:name="com.example.empathymap.FragenActivity1"
+58-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:47:13-66
+59            android:exported="false" />
+59-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:48:13-37
+60        <activity
+60-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:49:9-51:40
+61            android:name="com.example.empathymap.FragenActivity"
+61-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:50:13-65
+62            android:exported="false" />
+62-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:51:13-37
+63        <activity
+63-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:52:9-54:40
+64            android:name="com.example.empathymap.MainActivity3"
+64-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:53:13-42
+65            android:exported="false" />
+65-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:54:13-37
+66        <activity
+66-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:55:9-57:40
+67            android:name="com.example.empathymap.MainActivity2"
+67-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:56:13-42
+68            android:exported="false" />
+68-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:57:13-37
+69        <activity
+69-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:58:9-66:20
+70            android:name="com.example.empathymap.MainActivity"
+70-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:59:13-63
+71            android:exported="true" >
+71-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:60:13-36
+72            <intent-filter>
+72-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:61:13-65:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:62:17-69
+73-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:62:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:64:17-77
+75-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:64:27-74
+76            </intent-filter>
+77        </activity>
+78
+79        <meta-data
+79-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:68:9-70:57
+80            android:name="preloaded_fonts"
+80-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:69:13-43
+81            android:resource="@array/preloaded_fonts" />
+81-->E:\EmpathyPepper\app\src\main\AndroidManifest.xml:70:13-54
+82        <meta-data
+82-->[com.aldebaran:qisdk:1.7.5] C:\Users\admin\.gradle\caches\transforms-3\2dba9fa17607037be4d5eca9f15d82f3\transformed\jetified-qisdk-1.7.5\AndroidManifest.xml:16:9-18:53
+83            android:name="qisdk_version"
+83-->[com.aldebaran:qisdk:1.7.5] C:\Users\admin\.gradle\caches\transforms-3\2dba9fa17607037be4d5eca9f15d82f3\transformed\jetified-qisdk-1.7.5\AndroidManifest.xml:17:13-41
+84            android:value="@string/qisdk_version" />
+84-->[com.aldebaran:qisdk:1.7.5] C:\Users\admin\.gradle\caches\transforms-3\2dba9fa17607037be4d5eca9f15d82f3\transformed\jetified-qisdk-1.7.5\AndroidManifest.xml:18:13-50
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\bcb1365ea3fc9f90e18a8ec77416b000\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\bcb1365ea3fc9f90e18a8ec77416b000\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+88            android:authorities="com.example.gameapp.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\bcb1365ea3fc9f90e18a8ec77416b000\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\bcb1365ea3fc9f90e18a8ec77416b000\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\bcb1365ea3fc9f90e18a8ec77416b000\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\bcb1365ea3fc9f90e18a8ec77416b000\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\admin\.gradle\caches\transforms-3\bcb1365ea3fc9f90e18a8ec77416b000\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\admin\.gradle\caches\transforms-3\83cf71a52327115246f321207fae6b45\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\admin\.gradle\caches\transforms-3\83cf71a52327115246f321207fae6b45\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\admin\.gradle\caches\transforms-3\83cf71a52327115246f321207fae6b45\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+96        </provider>
+97    </application>
+98
+99</manifest>
